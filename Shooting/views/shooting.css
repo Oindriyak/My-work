@@ -1,0 +1,75 @@
+.header{
+	text-align: center;
+	background-color: rgb(64, 109, 194);
+	color: white;
+	margin: 0px;
+}
+h3 {
+	margin: 0px;
+	font-size: 1.5rem;
+}
+body{
+	background-color: rgb(20,20,20);
+	max-width:100%;
+	max-height: 100%;
+	padding: 0;
+	margin:0px;
+	color:white;
+}
+.options{
+	background-color: white;
+	color: rgb(64, 109, 194); 
+	padding: 0px;
+}
+button{
+	background-color: white;
+	color: rgb(64, 109, 194); 
+	font-weight: bold;
+	margin-left: 0.55%;
+	margin-top: 0px;
+	border:0px; 
+	font-size:1.01rem;
+	outline:none;
+}
+button:hover{
+	color: white;
+	background-color: rgb(64, 109, 194); 
+}
+.container{
+	margin-left: 15%;
+	margin-right:15%;
+}
+#box{
+	margin-top: 5%;
+	margin-left: 13%;
+	margin-right:13%;
+	border: 2px solid green;
+	overflow:hidden;
+	padding:0px;
+	width:800px;
+}
+.square{
+	width:4px;
+	float: left;  
+	background-color: red; 
+	padding-bottom:4px;
+	visibility:hidden;
+}
+.status{
+	display: inline-block;
+	width:20%;
+	color: black; 
+	margin-left: 25%;
+	margin-right: 20%;
+}
+.vis{
+	visibility:visible;
+}
+
+.shooter{
+	background:cyan;
+}
+.beam{
+	background :lightcoral;
+	visibility: visible;
+}

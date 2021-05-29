@@ -1,0 +1,15 @@
+body{
+	width:100%;
+	margin:0;
+}
+.score{
+	margin-left: 75%;
+
+}
+.hiscore{
+	margin-left: 100px;
+}
+
+.a{
+	background-color: black;
+}
